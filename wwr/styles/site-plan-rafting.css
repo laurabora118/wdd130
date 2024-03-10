@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap);
 
 body {
     font-family: var(--paragraph-font);
@@ -12,8 +12,8 @@ body {
     --accent1-color: #5CB0FF;
     --accent2-color: #D9ECE6;
 
-    --heading-font: '______', serif;
-    --paragraph-font: '______', serif;
+    --heading-font: 'Rubik', serif;
+    --paragraph-font: 'Rubik', serif;
     --nav-background-color: #0E3820;
     --nav-link-color: #D9ECE6;
     --nav-hover-link-color: #5CB0FF;
@@ -33,12 +33,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    padding: 10%;
+    padding: 10px;
     background-color: var(--accent2-color);
 }
 
 p {
-    padding: 20%;
+    padding: 20px;
 }
 
 nav {
@@ -54,8 +54,12 @@ nav a {
     padding: 2rem;
 }
 
-nav a:link, nav a:visited {
+nav a:link {
     color: var(--nav-link-color)   
+}
+
+nav a:visited {
+    color: var(--nav-accent-color)   
 }
 
 nav a:hover {
