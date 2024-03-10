@@ -22,10 +22,10 @@ body {
 
     --heading-font: '______', serif;
     --paragraph-font: '______', serif;
-    --nav-background-color: #XXXXXX;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
+    --nav-background-color: #FFD6F3;
+    --nav-link-color: #FF5154;
+    --nav-hover-link-color: #FF88DC;
+    --nav-hover-background-color: #91A6FF;
 }
 /* heading, paragraph and nav colors to be selected during site plan*/
 
