@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap);
+/*} from google sheets if needed
+.Rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+*/
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #0E3820;
+    --secondary-color: #2BA15E;
+    --accent1-color: #5CB0FF;
+    --accent2-color: #D9ECE6;
+
+    --heading-font: '______', serif;
+    --paragraph-font: '______', serif;
+    --nav-background-color: #XXXXXX;
+    --nav-link-color: #XXXXXX;
+    --nav-hover-link-color: #XXXXXX;
+    --nav-hover-background-color: #XXXXXX;
+}
+/* heading, paragraph and nav colors to be selected during site plan*/
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: var(--max-width);
+    font-family: var(--font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 10%;
+    background-color: var(--accent2-color);
+}
+
+p {
+    padding: 20%;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 2rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color)   
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-background-color);
+}
