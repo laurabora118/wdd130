@@ -1,12 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap);
-/*} from google sheets if needed
-.Rubik {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-*/
+
 
 body {
     font-family: var(--paragraph-font);
@@ -22,10 +14,10 @@ body {
 
     --heading-font: '______', serif;
     --paragraph-font: '______', serif;
-    --nav-background-color: #FFD6F3;
-    --nav-link-color: #FF5154;
-    --nav-hover-link-color: #FF88DC;
-    --nav-hover-background-color: #91A6FF;
+    --nav-background-color: #0E3820;
+    --nav-link-color: #D9ECE6;
+    --nav-hover-link-color: #5CB0FF;
+    --nav-hover-background-color: #2BA15E;
 }
 /* heading, paragraph and nav colors to be selected during site plan*/
 
