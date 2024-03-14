@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap);
+
+:root {
+    --primary-color: #0E3820;
+    --secondary-color: #2BA15E;
+    --accent1-color: #5CB0FF;
+    --accent2-color: #D9ECE6;
+
+    --heading-font: 'Rubik', serif;
+    --paragraph-font: 'Rubik', serif;
+    --nav-background-color: #0E3820;
+    --nav-link-color: #D9ECE6;
+    --nav-hover-link-color: #5CB0FF;
+    --nav-hover-background-color: #2BA15E;
+}
+
+header {
+    background-color: var(--accent2-color);
+}
+
+article {
+    position: absolute;
+    background-color:bisque;
+}
+
+article img {
+    float: right;
+}
+
+h1 {
+    position: absolute;
+}
+
+h2, h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h2 img {
+    display: block;
+    width: 50%;
+    height:auto;
+}
+
+p {
+    color: rgb(39, 56, 56);
+    padding: 0px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height:auto;
+}
+
+footer {
+    position:  ;
+    background-color:bisque;
+}
