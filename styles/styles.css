@@ -62,7 +62,7 @@ footer {
 
 .box {
     margin: 1rem;
-    border:color(2px solid(blueviolet, hotpink, gray, black));
+    border:color(solid(blueviolet, hotpink, gray, black));
     padding: 1rem;
     background-color: rgb(229, 109, 201);
     color: rgb(25, 19, 24);
