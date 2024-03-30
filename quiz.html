@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WDD130 | Quiz Form | Laura Sandura </title>
+    <meta name="description" content="week02 Box-Model lesson">
+    <meta name="author" content="Laura Sandura">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Form</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>HTML and CSS Quiz</legend>
+                <label for="css">1. What does CSS stand for?</label>
+                <input type="text" id="q1" name="q1" value="enter answer"><br>
+                <label for="github">2. What does a commit to github do?</label>
+                <input type="textarea" id="q2" name="q2" rows="3" placeholder="please explain"><br>
+                <label for="html">3. What is an not an element of HTML?</label>
+                <select id="q3" name="q3">
+                    <option value="">Choose One</option>
+                    <option value="header">Header</option>
+                    <option value="main">Main</option>
+                    <option value="footer">Footer</option>
+                    <option value="width">Width</option>
+                </select><br>
+                <label for="">4. Pick a number between 1 and 10</label>
+                <input type="number" id="q4" name="q4" placeholder="pick any number"><br>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+<footer>
+    <p>WDD130 | Quiz Form | Laura Sandura</p>
+</footer>

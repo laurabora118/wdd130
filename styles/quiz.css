@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(101, 135, 207);
+}
+
+
+header, footer {
+    font-size: larger;
+    font-style: normal;
+    color: blue;
+}
+
+main {
+    align-content: center;
+    color: Green;
+}
+
+input, select {
+    background-color: aliceblue;
+}
+
+fieldset, label {
+    background-color: lightgray;
+}
+button {
+    color: #000;
+    background-color: rgb(143, 232, 232);
+    position: center;
+}
+
+legend {
+    background-color: rgb(143, 232, 232);
+    color: blue;
+}
