@@ -58,7 +58,8 @@ article img {
 }
 
 article {
-    font-family: var(--paragraph-font);
+    /* Due to their dynamic nature, CSS variables are currently not statically checked
+        font-family: var(--paragraph-font);*/
     color: var(--secondary-color);
     /*background-color: rgb(251, 245, 237, .7);
     max-width: 100%;
@@ -82,12 +83,14 @@ article {
 }
 
 p {
-    font-family: var(--paragraph-font);
+    /* Due to their dynamic nature, CSS variables are currently not statically checked
+        font-family: var(--paragraph-font);*/
     color: var(--secondary-color);
 }
 
 h1 {
-    font-family: var(--heading-font);
+    /* Due to their dynamic nature, CSS variables are currently not statically checked
+        font-family: var(--paragraph-font);*/
     color: var(--primary-color);
     position: absolute;
     top: 20%;
@@ -141,7 +144,8 @@ h1 {
 
 
 h2, h3 {
-    font-family: var(--heading-font);
+    /* Due to their dynamic nature, CSS variables are currently not statically checked
+        font-family: var(--paragraph-font);*/
     color: var(--primary-color);
 }
 
