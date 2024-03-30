@@ -14,15 +14,18 @@ main {
     color: Green;
 }
 
-input, select {
+input, select, textarea {
     background-color: aliceblue;
 }
 
 fieldset, label {
     background-color: lightgray;
+    width: 600px;
+    height: 130px;
 }
+
 button {
-    color: #000;
+    color: blue;
     background-color: rgb(143, 232, 232);
     position: center;
 }
@@ -30,4 +33,5 @@ button {
 legend {
     background-color: rgb(143, 232, 232);
     color: blue;
+
 }
