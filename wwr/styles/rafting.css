@@ -116,6 +116,7 @@ h1 {
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1000px;
+    display: flex;
 }
 
 h2, h3 {
@@ -130,15 +131,14 @@ h2 img {
 }
 
 figure {
-    display: inline-flex;
-    align-content: center;
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 	padding: 10px;
-    justify-content:space-between;
-    justify-items: center;
-    margin: 1rem auto;
-    --accent1-color: #5CB0FF;
     max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 figcaption {
