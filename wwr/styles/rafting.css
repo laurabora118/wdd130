@@ -110,6 +110,14 @@ h1 {
     max-width: 1000px;
 }
 
+.adventure {
+    background-color: var(--accent2-color);
+    margin: 1rem auto;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
 h2, h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -118,20 +126,19 @@ h2, h3 {
 h2 img {
     display: block;
     width: 50%;
-    height:auto;
+    height: auto;
 }
 
 figure {
-    display: flex;
+    display: inline-flex;
+    align-content: center;
     flex-direction: row;
 	padding: 10px;
     justify-content:space-between;
     justify-items: center;
     margin: 1rem auto;
-    border-bottom: 1px solid #ccc;
+    --accent1-color: #5CB0FF;
     max-width: 1000px;
-    font-family: var(--paragraph-font);
-    background-color: var(--accent2-color);
 }
 
 figcaption {
