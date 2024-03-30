@@ -6,7 +6,7 @@
     <title>White Water Rafting | Contact Us Page | Laura Sandura </title>
     <meta name="description" content="White Water Rafting Contact Us Page'">
     <meta name="author" content="Laura Sandura">
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="/wwr/styles/rafting.css">
 </head>
 <body>
     <header>
@@ -23,26 +23,28 @@
     <main>
             <h1>Contact Us</h1>
             <h2>Company Information</h2>
-            <ul>Address</ul>
-            <ul>phone numbers(s)</ul>
-            <ul>email</ul>
-            <ul>google map</ul>
-            <h2>Employee profile images</h2>
-            <form action="">
+                <h4>Address</h4>
+                <h4>phone numbers(s)</h4>
+                <h4>email</h4>
+                <h4>google map</h4>
+                <h4>Employee profile images</h2>
+            <form action="contact">
                 <fieldset>
                     <legend>Contact Us Form</legend>
                     <label for="name">Enter your username.</label>
                     <input type="text" id="name" value="enter username"><br>
                     <label for="email">Enter your email</label>
                     <input type="email" id="email" name="email" placeholder="email@example.com"><br>
-                    <label for="reason">Please select one?</label>
+                    <label for="radio">Please select one?</label>
                     <input type="radio" id="general" name="reason" value="General Inquiry">
                     <label for="general">General Inquiry</label>
                     <input type="radio" id="reservation" name="reservation"value="Reservation Question">
                     <label for="general">Reservation Question</label>
                     <input type="radio" id="website" name="website" value="Website Suggestion">
                     <label for="general">Website Suggestion</label><br>
-                    <input type="textarea" id="message" name="message" rows="4" value="Please write your message.">
+                    <textarea id="message" name="message" rows="4" value="Please write your message."></textarea>
+                    <label for="general">Please subscribe me to the monthly newsletter.</label>
+                    <input type="checkbox" id="subscription" name="subscription" value="Check to subscribe to our newsletter">
                 </fieldset>
                 <button type="submit">Send Request</button>
             </form>
