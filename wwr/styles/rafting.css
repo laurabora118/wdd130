@@ -75,10 +75,31 @@ article {
     position: absolute;
     background-color:  #D9ECE6;
     width: 80%;
-    height: 35%;
+    height: 25%;
     max-width: 800px;
     max-height: 200px;
     margin-top: 5%;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    background-color: var(--accent1-color);
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 300px);
+    padding: 10px;
+    align-items: center;
+    justify-items:flex-start;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;    
+}
+
+
+.grid-item {    
+    background-color: #5CB0FF;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -98,12 +119,12 @@ h1 {
     transform: translate(-50%, -50%);
     background-color:  #D9ECE6;
     width: 100%;
-    height: 10%;
+    height: 5%;
     margin-top: 5%;
     text-align: center;
 }
 
-.history, .contact {
+.history, .contact, .newsletter, .book {
     background-color: var(--accent2-color);
     margin: 1rem auto;
     display: grid;
